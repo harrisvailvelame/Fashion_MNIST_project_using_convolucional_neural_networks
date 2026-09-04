@@ -13,6 +13,6 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate notebook JSON
-        run: python -m json.tool keras_fashion_mnist_dp_cnn_pedrohv.ipynb > /dev/null
+        run: python -m json.tool fashion_mnist_cnn.ipynb > /dev/null
       - name: Compile repository Python where applicable
         run: python -m compileall -q .
