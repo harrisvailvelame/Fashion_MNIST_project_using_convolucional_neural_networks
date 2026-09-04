@@ -20,7 +20,7 @@ The original experiment reports approximately **90.75% test accuracy** in the no
 
 ```text
 .
-├── keras_fashion_mnist_dp_cnn_pedrohv.ipynb   # original experiment
+├── fashion_mnist_cnn.ipynb                     # original experiment
 ├── requirements.txt                            # reproducibility dependencies
 └── .github/workflows/quality.yml               # lightweight repository checks
 ```
@@ -41,7 +41,7 @@ The notebook loads the dataset through Keras, so the dataset itself is not dupli
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook keras_fashion_mnist_dp_cnn_pedrohv.ipynb
+jupyter notebook fashion_mnist_cnn.ipynb
 ```
 
 ## Engineering perspective
